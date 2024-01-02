@@ -1,0 +1,11 @@
+{
+  "name": "spearfishing_website",
+  "version": "1.0.0",
+  "description": "Spearfishing Website used to identify mediterranean species and store past fishing trip catches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Constantinos Stylianou",
+  "license": "ISC"
+}
