@@ -5,13 +5,13 @@ import Navbar from "react-bootstrap/Navbar";
 function NavBarFunction() {
     return (
       <>
-        <Navbar bg="dark" variant="dark"> {/* Corrected data-bs-theme attribute */}
+        <Navbar bg="light" variant="light"> 
           <Container>
             <Navbar.Brand href="#HomeLink">Navbar</Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="ms-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#InteractiveMap">Interactive Map</Nav.Link>
-              <Nav.Link href="#Species">Species</Nav.Link>
+              <Nav.Link href="#ContactUs">Contact Us</Nav.Link>
+              <Nav.Link href="#Account Settings">Account Settings</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
